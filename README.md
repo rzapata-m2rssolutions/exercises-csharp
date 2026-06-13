@@ -7,10 +7,10 @@ LeetCode exercises in C#.
 <!-- PROGRESS-START - DO NOT EDIT -->
 | Source | Solved |
 | ------ | ------ |
-| LeetCode | 2 |
-| **Total** | **2** |
+| LeetCode | 3 |
+| **Total** | **3** |
 
-**Last solved:** [1. Two Sum](src/LeetCode/Problems/0001_TwoSum.cs)
+**Last solved:** [1117. Building H2 O](src/LeetCode/Problems/1117_BuildingH2O.cs)
 <!-- PROGRESS-END -->
 
 ## Prerequisites
