@@ -28,7 +28,7 @@ jobs:
         run: dotnet build -warnaserror --no-restore
 
       - name: Format Check
-        run: dotnet format ExerciseCSharp.slnx --verify-no-changes --no-restore
+        run: dotnet format ExercisesCSharp.slnx --verify-no-changes --no-restore
 
       - name: Test
         run: dotnet test --no-restore

@@ -49,5 +49,5 @@ On every commit, Husky automatically runs:
 To fix formatting before committing:
 
 ```sh
-dotnet format ExerciseCSharp.slnx
+dotnet format ExercisesCSharp.slnx
 ```
