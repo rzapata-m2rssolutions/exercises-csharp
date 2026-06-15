@@ -1,5 +1,6 @@
 namespace LeetCode.Problems;
 
+// https://leetcode.com/problems/lru-cache
 public class LRUCache(int capacity)
 {
   private readonly LinkedList<(int key, int value)> _values = [];

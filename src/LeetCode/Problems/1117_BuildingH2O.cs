@@ -1,5 +1,6 @@
 namespace LeetCode.Problems;
 
+// https://leetcode.com/problems/building-h2o
 public class H2O : IDisposable
 {
   private int hCount;
