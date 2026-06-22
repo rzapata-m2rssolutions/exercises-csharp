@@ -103,4 +103,4 @@ On the contrary, a Singleton is dangerous because:
 
 We register `OrderDbContext` itself as a scoped service, `AddDbContext<T>` registers `T` as scoped by default, which means each HTTP request gets its own instance.
 
-For multi-tenant scenarios we can register `OrderDbContext` using `AddDbContext` overload that provides `IServiceProvider` and internally int the action use `DbContextOptionsBuilder`, from here we can resolve `IHttpContextAccessor`, read a tenant identifier from the current request (header, claim, subdomain), and use it to pick the right connection string, all inside that single scoped options lambda. One `OrderDbContext` registration, N tenants handled at runtime.
+For multi-tenant scenarios we can register `OrderDbContext` using `AddDbContext` overload that provides `IServiceProvider` and internally in the action use `DbContextOptionsBuilder`, from here we can resolve `IHttpContextAccessor`, read a tenant identifier from the current request (header, claim, subdomain), and use it to pick the right connection string, all inside that single scoped options lambda. One `OrderDbContext` registration, N tenants handled at runtime.
